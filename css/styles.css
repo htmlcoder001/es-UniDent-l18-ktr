@@ -156,12 +156,17 @@ section{
 
 /*offer_section*/
 .offer_section{
-	background: #0095d7 url(../images/offer.jpg) 50% 0% no-repeat;
+	background: #0095d7 url(../images/offer.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	min-height: 640px;
-	padding: 15px 0 0;
+	padding: 0;
 }
 .offer_section .wrapper{
 	position: relative;
+	padding: 15px 0;
 }
 
 .main_title{
@@ -188,9 +193,10 @@ section{
 .ofr_bull>li{
 	color: #fff;
 	font-size: 15px;
+	line-height: 24px;
 	padding: 0 0 0 28px;
 	background: url(../images/ofr_icon.png) 0% 4px no-repeat;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 .ofr_bull>li:last-child{
 	margin-bottom: 0;
@@ -336,9 +342,12 @@ section{
 	width: 160px;
 	display: inline-block;
 	vertical-align: top;
-	font-size: 18px;
+	font-size: 17px;
 	letter-spacing: normal;
 	text-align: center;
+}
+.benef1>li>p{
+	padding: 0 4px;
 }
 .benef1>li>img{
 	display: block;
@@ -684,8 +693,12 @@ section{
 		background-size: 550px;
 	}
 	.offer_section{
-		background: #008cd4 url(../images/offer_tablet.jpg) 50% 0% no-repeat;
+		background: #008cd4 url(../images/offer_tablet.jpg);
 		min-height: 626px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 	.main_title{
 		font-size: 48px;
