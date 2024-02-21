@@ -156,7 +156,7 @@ section{
 
 /*offer_section*/
 .offer_section{
-	background: #0095d7 url(../images/offer.jpg);
+	background: #0095d7 url(../images/unident.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
@@ -693,7 +693,7 @@ section{
 		background-size: 550px;
 	}
 	.offer_section{
-		background: #008cd4 url(../images/offer_tablet.jpg);
+		background: #008cd4 url(../images/unident_tablet.jpg);
 		min-height: 626px;
 		-webkit-background-size: cover;
 		background-size: cover;
@@ -874,7 +874,7 @@ section{
 		background-size: 300px;
 	}
 	.offer_section{
-		background: #008ad1 url(../images/offer_mob.jpg) 50% 0% no-repeat;
+		background: #008ad1 url(../images/unident_mob.jpg) 50% 0% no-repeat;
 		min-height: auto;
 		padding-bottom: 30px;
 	}
